@@ -22,3 +22,4 @@ just download notes@shoaibzs.github.com.zip form releases and unzip dollar-pkr@s
 To restart GNOME Shell in X11, pressing Alt+F2 to open the Run Dialog and enter restart 
 (or just r). 
 In Wayland Logout and Login agaian.
+Images/Screenshot From 2025-03-18 10-05-43.png
