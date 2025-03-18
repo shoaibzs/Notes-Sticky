@@ -23,4 +23,4 @@ To restart GNOME Shell in X11, pressing Alt+F2 to open the Run Dialog and enter 
 (or just r). 
 In Wayland Logout and Login agaian.
 
-Images/Screenshot From 2025-03-18 10-05-43.png
+![Uploading Screenshot From 2025-03-18 10-05-43.png…]()
