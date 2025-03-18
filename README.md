@@ -8,7 +8,7 @@ Users can create, edit, delete, and customize notes that appear on the desktop.
 # How to install
 ```
 Install from gnome extensions website:
-https://extensions.gnome.org/extension/4869/Notes-Sticky/
+https://extensions.gnome.org/extension/7994/notes-sticky/
 
 or
 
