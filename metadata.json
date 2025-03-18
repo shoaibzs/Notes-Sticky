@@ -1,0 +1,17 @@
+{
+  "name": "Notes (sticky)",
+  "description": "Add sticky notes to your GNOME Desktop",
+  "uuid": "notes@shoaibzs.github.com",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48"
+  ],
+  "url": "https://github.com/shoaibzs/Notes-Sticky",
+  "version": 1,
+  "author": "Shoaib",
+  "donations": {
+    "github": "shoaibzs"
+}
+}

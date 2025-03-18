@@ -1,0 +1,158 @@
+/* =============================================================================
+ * Name:      Notes (sticky) Extension for GNOME
+ *            Stylesheet for styling sticky notes on the desktop
+ *            Compatible with GNOME 45-48
+ * Version:   1.0
+ * Created:   17.03.2025
+ * URL:       https://github.com/shoaibzs/
+ * SPDX-License-Identifier: GPL-2.0-or-later
+ * ============================================================================= */
+
+/* Notes' main body styling
+ * These styles define the overall appearance of the note container
+ * including borders, padding, and hover effects
+ * ============================================================================= */
+.noteBoxStyle {
+	padding: 0px;
+	border-radius: 8px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+/* Add a subtle shadow when hovering over a note to indicate interactivity */
+.noteBoxStyle:hover {
+	box-shadow: 0px 0px 10px #000;
+}
+
+/* Styling for the text field inside notes
+ * Removes borders and background to blend with the note's background color
+ * ============================================================================= */
+.notesTextField {
+	padding: 12px;
+	border: none;
+	background: none;
+}
+
+/* Background gradient for notes when using the default theme
+ * Creates a vertical gradient from semi-transparent to more opaque
+ * ============================================================================= */
+.notesBackground {
+	background-gradient-start: rgba(0, 0, 0, 0.3);
+	background-gradient-end: rgba(0, 0, 0, 0.9);
+	background-gradient-direction: vertical;
+}
+
+/* Notes' headers and the buttons in them
+ * Styles for the header bar containing action buttons
+ * ============================================================================= */
+.noteHeaderStyle {
+	padding: 8px;
+	border-radius: 8px 8px 0 0;
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Title button in the header - used for dragging the note
+ * Takes up most of the header space to provide a large drag area
+ * ============================================================================= */
+.notesTitleButton {
+	padding: 0 8px;
+	border-radius: 4px;
+}
+
+/* Hover effect for the title button */
+.notesTitleButton:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling for note header buttons (add, delete, options, resize)
+ * Provides consistent sizing and appearance for all action buttons
+ * ============================================================================= */
+.notesButton {
+	padding: 4px;
+	border-radius: 4px;
+	width: 24px;
+	height: 24px;
+}
+
+/* Hover effect for action buttons */
+.notesButton:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Alternative circular button style (legacy)
+ * Used for a more rounded button appearance if needed
+ * ============================================================================= */
+.notesCircleButton {
+	border-width: 1px;
+	border-radius: 14px;
+	height: 28px;
+	width: 28px;
+	border-style: solid;
+	border-color: black;
+}
+
+/* Style for header box buttons when using the circle style */
+.notesHeaderboxButton {
+	border-style: solid;
+	border-color: grey; /* TODO should be the same as the note's text */
+}
+
+/* Hover and active states for circle buttons
+ * Makes the button slightly smaller with a thicker border
+ * ============================================================================= */
+.notesCircleButton:hover, .notesCircleButton:active {
+	border-width: 2px;
+	border-radius: 10px;
+	height: 26px;
+	width: 26px;
+}
+
+/* Dialog styling
+ * Styles for modal dialogs like the delete confirmation
+ * ============================================================================= */
+.notes-dialog {
+	max-width: 320px;
+}
+
+/* Content area of dialogs
+ * Controls spacing, padding and dimensions of dialog content
+ * ============================================================================= */
+.notes-dialog-content {
+	spacing: 8px;
+	padding: 12px;
+	width: 300px;
+	max-width: 300px;
+}
+
+/* Dialog title styling
+ * Makes the title stand out with bold text and proper spacing
+ * ============================================================================= */
+.notes-dialog-title {
+	font-weight: bold;
+	font-size: 1.1em;
+	padding-bottom: 8px;
+}
+
+/* Round button style for dialogs
+ * Used for buttons in dialog boxes
+ * ============================================================================= */
+.notes-round-button {
+	padding: 4px;
+	border-radius: 16px;
+}
+
+/* Hover effect for round buttons */
+.notes-round-button:hover {
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* Menu styling
+ * Controls the appearance of dropdown menus (like the options menu)
+ * ============================================================================= */
+.notes-menu {
+	padding: 8px;
+	border-radius: 8px;
+	background-color: rgba(255, 255, 255, 0.95);
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
